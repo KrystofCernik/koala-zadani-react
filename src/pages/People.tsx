@@ -9,7 +9,7 @@ export default function People() {
 
   useEffect(() => {
     const getData = async () => {
-      const response = await fetch('../../data/example-data.json')
+      const response = await fetch('/data/example-data.json')
       const data = await response.json()
   
       dispatch(getPeople(data))
