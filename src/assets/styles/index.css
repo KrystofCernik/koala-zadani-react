@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-80: #181818;
+  --black-60: #2E2E32;
+  --black-40: #333333;
+  --white: #f5f5f5;
+  --green: #42D1AB;
+}
+
+html,
+body {
+  background-color: #1B1B1A;
+}
